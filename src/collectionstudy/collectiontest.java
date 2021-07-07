@@ -1,3 +1,5 @@
+package collectionstudy;
+
 import java.util.*;
 
 public class collectiontest {
