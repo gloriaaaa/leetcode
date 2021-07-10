@@ -1,3 +1,5 @@
+package basiclearn;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -42,14 +44,14 @@ public class basics {
         // extends AbstractStringBuilder
         // implements java.io.Serializable, CharSequence
         //char[] value;
-        sb.append("h");
+        sb.append("h");//public StringBuilder append(String str) {
 
 
         StringBuffer sb1 = new StringBuffer();
         //public final class StringBuffer
         //    extends AbstractStringBuilder
         //    implements java.io.Serializable, CharSequence
-        sb1.append("e");
+        sb1.append("e");//public synchronized StringBuffer append(String str)
         //StringBuffer对方法加了同步锁 线程安全，StringBuilder不是。
 
         //final 关键字的作用
